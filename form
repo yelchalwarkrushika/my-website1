@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<label for="companySelect">Select a Company:</label>
+
+<select id="companySelect" onchange="displayCapital()">
+    <option value="amazon">amazon</option>
+    <option value="microsoft">microsoft</option>
+    <option value="google">google</option>
+    <option value="myntra">myntra</option>
+    <option value="flipkart">flipkart</option>
+</select>
+
+
+
+<div id="capital"></div>
+
+ <script style="text-align: center;">
+function displayCapital() {
+var select = document.getElementById("companySelect");
+var capitalDiv = document.getElementById("capital");
+
+var selectedCompany = select.options[select.selectedIndex].text;
+
+// You can replace the capital values with the actual capital for each company
+var capitalMap = {
+ "amazon" : "30,00000",
+ "microsoft" : "50,00000",
+ "google" : "20,00000",
+ "myntra" : "40,00000",
+ "flipkart" : "10,00000"
+
+};
+
+var capital = capitalMap[selectedCompany];
+capitalDiv.textContent = "Capital:" + capital;
+}
+</script>
+    
+    
+
+</body>
+</html>
