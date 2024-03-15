@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn5.vectorstock.com/i/1000x1000/46/79/nice-background-vector-16234679.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+    }
+    
+    select {
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    }
+    
+    
+    #capital {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0066cc;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+    select {  text-align: center;
+    margin-left: 500px;
+    width: 400px;                    }
+    select .lt { text-align: center; }
+
+    option{
+        text-align: center;
+    }
+
+    #companySelect{
+        position: relative;
+        display: inline-block;
+      }
+      
+      #companySelect-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      #companySelect-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
