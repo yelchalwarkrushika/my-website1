@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+
+    <style>section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        color:white;
+    
+    }
+
+    .exercise-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-right: 80px;
+    }
+
+    .exercise-card {
+        width: 300px;
+        margin: 15px;
+        padding: 15px;
+        background-color: cadetblue;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .exercise-card:hover {
+        transform: scale(1.05);
+    }
+
+    img {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .pulse-animation {
+        animation: pulse 1.5s infinite;
+    }
+
+    #exerciseContainer {
+        background-color:rgb(71, 17, 218);
+        color:  white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(21, 46, 187, 0.1);
+        width: 400px;
+        height: 70px;
+        text-align: center;
+    }
+
+    #timer {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #exerciseName {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .yoga{
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .exercise-card {
+      margin-top: 20px;
+    }
+
+    .exercise-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Added margin-bottom for separation */
+    padding-bottom: 15px; /* Added padding-bottom for separation */
+}
+
+.exercise-card {
+    width: 300px;
+    margin-right: 15px; /* Adjust spacing between cards */
+    padding: 15px;
+    background-color: cadetblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.exercise-card:last-child {
+    margin-right: 0; /* Remove right margin for the last card */
+}
+
+.exercise-container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    justify-content: center; /* Center align items horizontally */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Added margin-bottom for separation */
+    padding-bottom: 15px; /* Added padding-bottom for separation */
+}
+
+.exercise-card {
+    width: 300px;
+    margin-right: 15px; /* Adjust spacing between cards */
+    padding: 15px;
+    background-color: cadetblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.exercise-card:hover {
+    transform: scale(1.05);
+}
+
+.exercise-card:last-child {
+    margin-right: 0; /* Remove right margin for the last card */
+}
+
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    
+<section>
+
+
+<div>
+    <h2>Exercises and yoga asanas with Pictures</h2>
+<div class="exercise-container">
+
+    <div class="container">
+        <div class="row exercise-container">
+            <div class="col-md-4">
+                <div class="exercise-card">
+                    <a href="https://youtu.be/eiMOxvZKyvM"><img src="https://media1.popsugar-assets.com/files/thumbor/ArsvymzjafH53GPfbjjcCcB3PxI/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/10/31/677/n/1922729/f5a12f7fbcd52af8_Basic-Push-Up.jpg" alt="Push-up Pose"></a>
+                    <p style="color: white;">Push-up</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="exercise-card">
+                    <a href="https://youtu.be/YIOIGUQMck8"><img src="https://img.freepik.com/free-photo/sporty-athletic-woman-squatting-doing-sit-ups-gym-isolated-white-wall_231208-1728.jpg" alt="Ankle Taps Pose" height="300px"></a>
+                    <p style="color: white;">Ankle Taps</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="exercise-card">
+                    <a href="https://youtu.be/XLXGydU5DdU"><img src="https://s3-us-west-2.amazonaws.com/beachbody-blog/uploads/2016/09/Glute-Bridge-A.B.jpg" alt="Glute Bridges Pose"></a>
+                    <p style="color: white;">Glute Bridges</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row exercise-container">
+            <div class="col-md-4">
+                <div class="exercise-card">
+                    <a href="https://youtu.be/g3wvIPXZ-Qo"><img src="https://images.herzindagi.info/image/2022/May/yoga-eye-sight-main.jpg" alt="Yoga Pose 1"></a>
+                    <p style="color: white;">Sarvangasana</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="exercise-card">
+                    <a href="https://youtu.be/LyA_0gtygVk"><img src="https://th.bing.com/th/id/OIP.o9dG6k5EnYKmQ4o0YjGx-wHaFE?w=287&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Yoga Pose 2"></a>
+                    <p style="color: white;">Bhujangasana</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="exercise-card">
+                    <a href="https://youtu.be/1xRX1MuoImw"><img src="https://shwetyoga.in/wp-content/uploads/2020/10/Yoga-classes-in-thane-west-3.png" alt="Yoga Pose 3"></a>
+                    <p style="color: white;">Suryanamskar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card exercise-card">
+              <div class="card-body">
+                <h5 class="card-title">Push-ups</h5>
+                <p class="card-text">Perform 3 sets of 10 repetitions each.</p>
+                <p class="card-text">Estimated time: 10 minutes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card exercise-card">
+              <div class="card-body">
+                <h5 class="card-title">ankle taps</h5>
+                <p class="card-text">Perform 3 sets of 20 repetitions each.</p>
+                <p class="card-text">Estimated time: 5 minutes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card exercise-card">
+              <div class="card-body">
+                <h5 class="card-title">glute bridges</h5>
+                <p class="card-text">Perform 3 sets of 15 repetitions each.</p>
+                <p class="card-text">Estimated time: 8 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bootstrap JS (Optional, if needed) -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</div>
+</section>
+</body>
+</html>
