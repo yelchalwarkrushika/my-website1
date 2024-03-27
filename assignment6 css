@@ -1,0 +1,12 @@
+#email
+{
+  width: 50px;
+}
+
+body{
+  font-family: Arial black;
+  background-image: url(https://cdn5.vectorstock.com/i/1000x1000/46/79/nice-background-vector-16234679.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
