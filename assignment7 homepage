@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <nav class="index">
+        <ul>
+            <li><a href="#home" id="homepage">HOME PAGE</a></li>
+            <li><a href="login.html" id="login">LOGIN</a></li>
+            <li><a href="#contact" id="catalogue">CATALOGUE</a></li>
+            <li><a href="#about" id="register">REGISTRATION PAGE</a></li>
+          </ul>
+          
+    </nav>
+
+   
+
+</body>
+</html>
+
+
+csss
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 216, 233);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover {
+    background-color: lightblue;
+  }
+
+  #homepage{
+    margin-left: 100px;
+  }
+
+  #login{
+    margin-left: 200px;
+  }
+
+  #catalogue {
+    margin-left: 300px;
+
+  }
+  #register{
+    margin-left: 300px;
+  }
