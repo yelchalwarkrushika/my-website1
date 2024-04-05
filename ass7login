@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="login.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
+    <h1 style="text-align: center; margin-top: 100px;">Fantasy Lights Bookstore.</h1>
     <form action="post">
-        <h1>Fantasy Lights Bookstore.</h1>
         <br><br>
     <div id="login">
         <br><br>
@@ -20,9 +21,9 @@
         <label id="pass"  for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br><br>
         <br>
-        <a href="catalogue.html"><button>sign in</button></a>
+        <a href="catalogue.html"><button  style="color: white; background-color: blue;">sign in</button></a>
         <h3>or</h3>
-        <button>sign up with Fantasy lights</button>
+        <button>Register with Fantasy lights</button>
         <br>
         <br>
         <br>
@@ -32,38 +33,3 @@
 
 </body>
 </html>
-
-
-css
-
-
-#login{
-    text-align: center;
-    margin-right: 10px;
-   
-   background-image: url(https://i.pinimg.com/736x/08/1a/ed/081aed2e7ddc029f940021ddb22145fc.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-
-}
-
-form{
-    text-align: center;
-   margin-left: 600px;
-   margin-top: 100px;
-    width:400px;
-    border: black;
-}
-#pass{
-  margin-right: 100px;
-}
-button{
-    font-size: larger;
-    padding: 10px;
-    background-color: blue;
-}
-body{
-    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-with-diagonal-lines-background_23-2150573617.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
