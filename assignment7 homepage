@@ -14,17 +14,24 @@
             <li><a href="#contact" id="catalogue">CATALOGUE</a></li>
             <li><a href="#about" id="register">REGISTRATION PAGE</a></li>
           </ul>
-          
     </nav>
+    
+    <h1 style="text-align: center;">Fantasy Lights Bookstore.</h1>
 
+    <h2>
+        this Fantasy books have all types of books
+    </h2>
+
+    <img src="https://images.squarespace-cdn.com/content/v1/57c6b79629687fde090a0fdd/1698155634134-H92JEZFN8201U3OSCCW2/collection-fall2023-new2.jpg" alt="">
    
 
+    <footer>
+        <p>&copy; 2024 Online Book Store. All rights reserved.</p>
+    </footer>
 </body>
 </html>
 
-
 csss
-
 
 
 
