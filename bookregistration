@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-with-diagonal-lines-background_23-2150573617.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 216, 233);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover {
+    background-color: lightblue;
+  }
+
+  #homepage{
+    margin-left: 100px;
+  }
+
+  #login{
+    margin-left: 200px;
+  }
+
+  #catalogue {
+    margin-left: 300px;
+
+  }
+  #register{
+    margin-left: 300px;
+  }
+
+#login {
+    text-align: center;
+    margin-right: 10px;
+    background-image: url(https://i.pinimg.com/736x/08/1a/ed/081aed2e7ddc029f940021ddb22145fc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 400px;
+    border: 2px solid black; /* Add border style */
+    padding: 0px; /* Add padding for better appearance */
+    background-color: whitesmoke;
+}
+
+
+#pass {
+    margin-right: 100px;
+}
+
+button {
+    font-size: larger;
+    padding: 10px;
+    margin-top: 10px; /* Add some spacing between button and input fields */
+}
