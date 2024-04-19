@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        body
+        {
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .img
+        {
+            width: 100px;
+            height: 500px;
+        }
+
+        .my
+        {
+            display: inline-block;
+            border: 2px solid black; /* Add border */
+            border-radius: 5%;
+            margin: 20px;
+            width: 200px;
+            height: 300px;
+           margin-left: 200px;
+           box-sizing: border-box; 
+            
+        }
+
+
+        .book
+        {
+            display: inline-block;
+        }
+
+        
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 216, 233);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover {
+    background-color: lightblue;
+  }
+
+  #homepage{
+    margin-left: 100px;
+  }
+
+  #login{
+    margin-left: 200px;
+  }
+
+  #catalogue {
+    margin-left: 300px;
+
+  }
+  #register{
+    margin-left: 300px;
+  }
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogue paghe</title>
+</head>
+<body>
+
+    <nav class="index">
+        <ul>
+            <li><a href="ass7.html" id="homepage">HOME PAGE</a></li>
+            <li><a href="login.html" id="login">LOGIN</a></li>
+            <li><a href="#contact" id="catalogue">CATALOGUE</a></li>
+            <li><a href="#about" id="register">REGISTRATION PAGE</a></li>
+          </ul>
+    </nav>
+
+    <h1 style="text-align: center;">CATALOGUE PAGE</h1>
+
+    
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/I/813aV273-rL._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="" class="my">
+
+    </div>
+    
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/I/81Ls+SBCLiL._AC_UF1000,1000_QL80_.jpg" alt="" class="my">
+
+    </div>
+
+    <div class="book">
+        <img src="https://www.fita.in/includes/assets/img/books/spoken-english-books/spoken-english-11.jpg" alt="" class="my" >
+
+    </div>
+
+    <div class="book">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/0*tQ0CdoTItIGpDjLG" alt="" class="my">
+
+    </div>
+
+    <div class="book">
+        <img src="https://i1.wp.com/thenerddaily.com/wp-content/uploads/2021/05/The-Summer-of-Broken-Rules-by-K.L.-Walther-Review.jpg?fit=1000%2C742&ssl=1" alt="" class="my"style="width: 200px;">
+
+    </div>
+
+    
+    <div class="book">
+        <img src="https://m.media-amazon.com/images/I/41EiBLxybSL.jpg" alt="" class="my" >
+
+    </div>
+    
+</body>
+</html>
