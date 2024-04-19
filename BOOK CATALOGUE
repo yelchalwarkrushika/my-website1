@@ -99,34 +99,36 @@
 
     
     <div class="book">
-        <img src="https://m.media-amazon.com/images/I/813aV273-rL._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="" class="my">
+        <img src="https://m.media-amazon.com/images/I/813aV273-rL._AC_UF1000,1000_QL80_DpWeblab_.jpg" alt="" class="my" >
+        <h2 style="margin-left: 200px;">book price 300</h2>
 
     </div>
     
     <div class="book">
         <img src="https://m.media-amazon.com/images/I/81Ls+SBCLiL._AC_UF1000,1000_QL80_.jpg" alt="" class="my">
+        <h2 style="margin-left: 200px;">book price 500</h2>
 
     </div>
 
     <div class="book">
         <img src="https://www.fita.in/includes/assets/img/books/spoken-english-books/spoken-english-11.jpg" alt="" class="my" >
-
+        <h2 style="margin-left: 200px;">book price 200</h2>
     </div>
 
     <div class="book">
         <img src="https://miro.medium.com/v2/resize:fit:1400/0*tQ0CdoTItIGpDjLG" alt="" class="my">
-
+        <h2 style="margin-left: 200px;">book price 100</h2>
     </div>
 
     <div class="book">
         <img src="https://i1.wp.com/thenerddaily.com/wp-content/uploads/2021/05/The-Summer-of-Broken-Rules-by-K.L.-Walther-Review.jpg?fit=1000%2C742&ssl=1" alt="" class="my"style="width: 200px;">
-
+        <h2 style="margin-left: 200px;">book price 250</h2>
     </div>
 
     
     <div class="book">
         <img src="https://m.media-amazon.com/images/I/41EiBLxybSL.jpg" alt="" class="my" >
-
+        <h2 style="margin-left: 200px;">book price 350</h2>
     </div>
     
 </body>
