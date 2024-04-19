@@ -12,7 +12,7 @@
     <nav class="index">
         <ul>
             <li><a href="#home" id="homepage">HOME PAGE</a></li>
-            <li><a href="login.html" id="login">LOGIN</a></li>
+            <li><a href="login.html" id="log">LOGIN</a></li>
             <li><a href="catalogue.html" id="catalogue">CATALOGUE</a></li>
             <li><a href="registration.html" id="register">REGISTRATION PAGE</a></li>
           </ul>
@@ -39,9 +39,10 @@
         <br>
         <br>
     </div>
+    </form>
 
+cssss
 
-csss
 
 
 body {
@@ -81,7 +82,7 @@ ul {
     margin-left: 100px;
   }
 
-  #login{
+  #log{
     margin-left: 200px;
   }
 
