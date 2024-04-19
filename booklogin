@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+
+    <nav class="index">
+        <ul>
+            <li><a href="#home" id="homepage">HOME PAGE</a></li>
+            <li><a href="login.html" id="login">LOGIN</a></li>
+            <li><a href="catalogue.html" id="catalogue">CATALOGUE</a></li>
+            <li><a href="registration.html" id="register">REGISTRATION PAGE</a></li>
+          </ul>
+    </nav>
+    
+    <h1 style="text-align: center; margin-top: 100px;">Fantasy Lights Bookstore.</h1>
+
+    <form action="post">
+        <br><br>
+    <div id="login">
+        <br><br>
+        <h2>LOGIN</h2>
+        <br><br>
+        <label for="fname">username or email address</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <br>
+        <label id="pass"  for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <br>
+        <a href="catalogue.html"><button  style="color: white; background-color: blue;">sign in</button></a>
+        <h3>or</h3>
+        <button>Register with Fantasy lights</button>
+        <br>
+        <br>
+        <br>
+    </div>
+
+
+csss
+
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-with-diagonal-lines-background_23-2150573617.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 216, 233);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover {
+    background-color: lightblue;
+  }
+
+  #homepage{
+    margin-left: 100px;
+  }
+
+  #login{
+    margin-left: 200px;
+  }
+
+  #catalogue {
+    margin-left: 300px;
+
+  }
+  #register{
+    margin-left: 300px;
+  }
+
+#login {
+    text-align: center;
+    margin-right: 10px;
+    background-image: url(https://i.pinimg.com/736x/08/1a/ed/081aed2e7ddc029f940021ddb22145fc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 400px;
+    border: 2px solid black; /* Add border style */
+    padding: 0px; /* Add padding for better appearance */
+    background-color: whitesmoke;
+}
+
+
+#pass {
+    margin-right: 100px;
+}
+
+button {
+    font-size: larger;
+    padding: 10px;
+    margin-top: 10px; /* Add some spacing between button and input fields */
+}
